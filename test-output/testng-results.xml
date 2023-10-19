@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-19T08:37:12 BST" name="Suite" finished-at="2023-10-19T08:38:06 BST" duration-ms="54173">
+    <groups>
+    </groups>
+    <test started-at="2023-10-19T08:37:12 BST" name="Pizzahut001" finished-at="2023-10-19T08:38:06 BST" duration-ms="54173">
+      <class name="com.realpay.pizzahut_part2.InitializeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.realpay.pizzahut_part2.InitializeTest@38c6f217]" started-at="2023-10-19T08:37:01 BST" name="setUp" finished-at="2023-10-19T08:37:12 BST" duration-ms="10045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="myTest(java.lang.String,java.lang.String)[pri:0, instance:com.realpay.pizzahut_part2.InitializeTest@38c6f217]" started-at="2023-10-19T08:37:15 BST" name="myTest" data-provider="getTestData" finished-at="2023-10-19T08:37:23 BST" duration-ms="8563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.pizzahut.co.in/ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTest -->
+        <test-method signature="closeBlackScreen()[pri:1, instance:com.realpay.pizzahut_part2.InitializeTest@38c6f217]" started-at="2023-10-19T08:37:23 BST" name="closeBlackScreen" finished-at="2023-10-19T08:37:24 BST" duration-ms="955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBlackScreen -->
+        <test-method signature="enterLocation()[pri:2, instance:com.realpay.pizzahut_part2.InitializeTest@38c6f217]" started-at="2023-10-19T08:37:24 BST" name="enterLocation" finished-at="2023-10-19T08:37:27 BST" duration-ms="2837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLocation -->
+        <test-method signature="urlContainsDeals()[pri:3, instance:com.realpay.pizzahut_part2.InitializeTest@38c6f217]" started-at="2023-10-19T08:37:27 BST" name="urlContainsDeals" finished-at="2023-10-19T08:37:30 BST" duration-ms="2857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlContainsDeals -->
+        <test-method signature="addItemToCart()[pri:4, instance:com.realpay.pizzahut_part2.InitializeTest@38c6f217]" started-at="2023-10-19T08:37:30 BST" name="addItemToCart" finished-at="2023-10-19T08:37:33 BST" duration-ms="3282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemToCart -->
+        <test-method signature="verifyItemAddedtoBasket()[pri:5, instance:com.realpay.pizzahut_part2.InitializeTest@38c6f217]" started-at="2023-10-19T08:37:33 BST" name="verifyItemAddedtoBasket" finished-at="2023-10-19T08:37:35 BST" duration-ms="2042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItemAddedtoBasket -->
+        <test-method signature="drinksMenu()[pri:6, instance:com.realpay.pizzahut_part2.InitializeTest@38c6f217]" started-at="2023-10-19T08:37:35 BST" name="drinksMenu" finished-at="2023-10-19T08:37:38 BST" duration-ms="2164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drinksMenu -->
+        <test-method signature="addTwoDrinksToBasket()[pri:7, instance:com.realpay.pizzahut_part2.InitializeTest@38c6f217]" started-at="2023-10-19T08:37:38 BST" name="addTwoDrinksToBasket" finished-at="2023-10-19T08:37:40 BST" duration-ms="2582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTwoDrinksToBasket -->
+        <test-method signature="checkout()[pri:8, instance:com.realpay.pizzahut_part2.InitializeTest@38c6f217]" started-at="2023-10-19T08:37:40 BST" name="checkout" finished-at="2023-10-19T08:37:42 BST" duration-ms="2248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method signature="verifyOnlinePaymentOption()[pri:9, instance:com.realpay.pizzahut_part2.InitializeTest@38c6f217]" started-at="2023-10-19T08:37:42 BST" name="verifyOnlinePaymentOption" finished-at="2023-10-19T08:37:44 BST" duration-ms="2038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOnlinePaymentOption -->
+        <test-method signature="selectCashOption()[pri:10, instance:com.realpay.pizzahut_part2.InitializeTest@38c6f217]" started-at="2023-10-19T08:37:44 BST" name="selectCashOption" finished-at="2023-10-19T08:37:47 BST" duration-ms="2125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCashOption -->
+        <test-method signature="verifyPromoOptionSelected()[pri:11, instance:com.realpay.pizzahut_part2.InitializeTest@38c6f217]" started-at="2023-10-19T08:37:47 BST" name="verifyPromoOptionSelected" finished-at="2023-10-19T08:37:49 BST" duration-ms="2039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPromoOptionSelected -->
+        <test-method signature="enterCheckoutDetails()[pri:12, instance:com.realpay.pizzahut_part2.InitializeTest@38c6f217]" started-at="2023-10-19T08:37:49 BST" name="enterCheckoutDetails" finished-at="2023-10-19T08:37:52 BST" duration-ms="3030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCheckoutDetails -->
+        <test-method signature="applyGiftCard()[pri:13, instance:com.realpay.pizzahut_part2.InitializeTest@38c6f217]" started-at="2023-10-19T08:37:52 BST" name="applyGiftCard" finished-at="2023-10-19T08:37:54 BST" duration-ms="2767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyGiftCard -->
+        <test-method signature="enterVoucher()[pri:14, instance:com.realpay.pizzahut_part2.InitializeTest@38c6f217]" started-at="2023-10-19T08:37:54 BST" name="enterVoucher" finished-at="2023-10-19T08:37:57 BST" duration-ms="2486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterVoucher -->
+        <test-method signature="giftCardSubmit()[pri:15, instance:com.realpay.pizzahut_part2.InitializeTest@38c6f217]" started-at="2023-10-19T08:37:57 BST" name="giftCardSubmit" finished-at="2023-10-19T08:37:59 BST" duration-ms="2144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- giftCardSubmit -->
+        <test-method signature="verifyErrorMessage()[pri:16, instance:com.realpay.pizzahut_part2.InitializeTest@38c6f217]" started-at="2023-10-19T08:37:59 BST" name="verifyErrorMessage" finished-at="2023-10-19T08:38:01 BST" duration-ms="2040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessage -->
+        <test-method signature="closePopupWindow()[pri:17, instance:com.realpay.pizzahut_part2.InitializeTest@38c6f217]" started-at="2023-10-19T08:38:01 BST" name="closePopupWindow" finished-at="2023-10-19T08:38:04 BST" duration-ms="2433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePopupWindow -->
+        <test-method signature="verifyUserReturnToBasketPage()[pri:18, instance:com.realpay.pizzahut_part2.InitializeTest@38c6f217]" started-at="2023-10-19T08:38:04 BST" name="verifyUserReturnToBasketPage" finished-at="2023-10-19T08:38:06 BST" duration-ms="2168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserReturnToBasketPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.realpay.pizzahut_part2.InitializeTest@38c6f217]" started-at="2023-10-19T08:38:06 BST" name="tearDown" finished-at="2023-10-19T08:38:06 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.realpay.pizzahut_part2.InitializeTest -->
+    </test> <!-- Pizzahut001 -->
+  </suite> <!-- Suite -->
+</testng-results>
